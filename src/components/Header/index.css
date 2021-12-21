@@ -1,1 +1,22 @@
 /* Write your CSS code here */
+* {
+  font-family: 'roboto';
+}
+.logoImg {
+  width: 30px;
+  height: 30px;
+}
+.headerText {
+  font-size: 22px;
+  font-weight: bold;
+  color: #555555;
+  margin-right: 8px;
+}
+Link:visited {
+  outline: none;
+}
+@media (min-width: 767px) {
+  .headerText {
+    margin-right: 15px;
+  }
+}
