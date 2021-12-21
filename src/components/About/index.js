@@ -1,5 +1,3 @@
-// Write your JS code here
-// Write your JS code here
 import './index.css'
 
 const About = () => (
@@ -10,6 +8,7 @@ const About = () => (
       alt="about"
     />
     <h1 className="tabText">About</h1>
+    <p className="content">I Love to Create, I am a FrontEnd Developer</p>
   </div>
 )
 
